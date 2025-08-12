@@ -51,5 +51,4 @@ veterinaria-app/
 
 ## Demo
 Puedes ver la aplicación funcionando en:
-🔗 [Demo en Netlify](https://tu-demo.netlify.app)  
-
+https://veterinariau.netlify.app/
