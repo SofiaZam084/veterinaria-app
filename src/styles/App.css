@@ -1,0 +1,33 @@
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #a83dffec;
+  color: #333;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 1024px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Animaciones */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
